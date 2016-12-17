@@ -38,6 +38,14 @@ public class Main {
         oder.add(new Order(300, 2000, Currency.GRN, "itemName3", "shopIdentificator3", users.get(0)));
         oder.add(new Order(200, 3000, Currency.USD, "itemName2", "shopIdentificator2", users.get(1)));
 
+        oder.add(new Order(400, 4000, Currency.USD, "itemName8", "shopIdentificator3", users.get(2)));
+        oder.add(new Order(100, 7000, Currency.USD, "itemName8", "shopIdentificator2", users.get(5)));
+        oder.add(new Order(800, 6000, Currency.USD, "itemName7", "shopIdentificator1", users.get(1)));
+        oder.add(new Order(900, 9000, Currency.USD, "itemName9", "shopIdentificator23", users.get(3)));
+        oder.add(new Order(700, 1000, Currency.USD, "itemName4", "shopIdentificator7", users.get(7)));
+        oder.add(new Order(500, 2000, Currency.USD, "itemName5", "shopIdentificator4", users.get(9)));
+        oder.add(new Order(100, 3000, Currency.USD, "itemName2", "shopIdentificator2", users.get(1)));
+
         Collections.sort(oder);
         System.out.println(oder);
 
